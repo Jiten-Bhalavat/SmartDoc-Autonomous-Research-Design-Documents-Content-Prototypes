@@ -1,0 +1,14 @@
+# Core
+langgraph
+langchain-openai
+langchain-core
+langchain-community
+pydantic
+python-dotenv
+
+# Frontend
+streamlit
+pandas
+
+# Image generation (optional)
+google-genai
