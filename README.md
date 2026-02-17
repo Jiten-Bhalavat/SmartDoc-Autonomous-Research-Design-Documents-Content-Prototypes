@@ -20,10 +20,6 @@ The pipeline is implemented as a LangGraph state machine in `bwa_backend.py`. Th
 
 ![Architecture Diagram](agent.png)
 
-The **reducer subgraph** (shown as a single node above) internally consists of:
-- `merge_content` → `decide_images` → `generate_and_place_images` → END
-
-See **[ARCHITECTURE.md](ARCHITECTURE.md)** for detailed ASCII diagrams (system overview, state flow, external APIs) and additional architecture details.
 
 ### Node descriptions
 
